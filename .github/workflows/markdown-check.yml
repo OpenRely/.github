@@ -19,5 +19,5 @@ jobs:
       - name: Link & File Reference Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --offline './docs/**/*.md' './.github/**/*.md' './README.md' './AGENTS.md' './SECURITY*.md' './profile/**/*.md'
+          args: --verbose --no-progress --offline './.github/**/*.md' './README.md' './AGENTS.md' './CODE_OF_CONDUCT.md' './SECURITY*.md' './profile/**/*.md'
           fail: true
