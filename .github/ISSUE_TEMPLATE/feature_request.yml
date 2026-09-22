@@ -1,0 +1,40 @@
+name: "💡 Feature Request"
+description: "Suggest an idea, enhancement, or new capability"
+title: "feat: "
+labels: ["type:feature", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve OpenRely! Please describe your proposed feature or enhancement clearly.
+        *(Feel free to submit this issue in English or Chinese.)*
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem or Use Case"
+      description: "Is your feature request related to a specific problem or workflow limitation?"
+      placeholder: "e.g., I'm always frustrated when comparing pricing for audio models because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed Solution"
+      description: "A clear and concise description of what you want to happen."
+      placeholder: "e.g., Add an audio modality filter badge in the header toolbar..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternative Solutions"
+      description: "A description of any alternative solutions or features you've considered."
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context / References"
+      description: "Any other context, references, mockups, or screenshots about the feature request."
