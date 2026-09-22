@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/Website-openrely.com-blue?logo=google-chrome&logoColor=white)](https://openrely.com)
 [![Discussions](https://img.shields.io/badge/Community-Discussions-orange?logo=github)](https://github.com/orgs/OpenRely/discussions)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](../LICENSE)
 
 ---
 
