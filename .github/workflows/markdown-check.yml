@@ -1,0 +1,23 @@
+name: Markdown & Link Checker
+
+on:
+  pull_request:
+    branches: [ dev, main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  link-checker:
+    name: Link & Asset Checker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Link & File Reference Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --offline './.github/**/*.md' './README.md' './AGENTS.md' './CODE_OF_CONDUCT.md' './SECURITY*.md' './profile/**/*.md'
+          fail: true

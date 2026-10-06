@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/orgs/OpenRely/discussions
+    about: Ask questions, share ideas, or discuss architecture with maintainers and the community.
+  - name: 🔐 Report a Security Vulnerability
+    url: https://github.com/OpenRely/.github/security/advisories/new
+    about: Report sensitive security vulnerabilities privately to OpenRely maintainers.
+  - name: 🌐 OpenRely Official Website
+    url: https://openrely.ai
+    about: Learn more about OpenRely ecosystem, services, and developer roadmaps.

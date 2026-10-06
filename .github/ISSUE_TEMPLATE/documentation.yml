@@ -1,0 +1,34 @@
+name: "📖 Documentation Improvement"
+description: "Suggest corrections, updates, or additions to documentation"
+title: "docs: "
+labels: ["type:documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep OpenRely documentation accurate and fresh!
+
+  - type: input
+    id: target
+    attributes:
+      label: "Target Document or URL"
+      description: "Which file or documentation page needs improvement?"
+      placeholder: "e.g., README.md, docs/ARCHITECTURE.md, or https://openrely.ai"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: "Issue or Proposed Change"
+      description: "What is outdated, missing, or unclear, and what should it be replaced with?"
+      placeholder: "Describe the changes you would like to see..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: "Contribution"
+      options:
+        - label: "I would be willing to submit a Pull Request to fix this documentation issue."
